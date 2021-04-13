@@ -1,0 +1,81 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="orderable" />
+            <item index="1" class="java.lang.String" itemvalue="+" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="bk-navigation-menu-item" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="21">
+            <item index="0" class="java.lang.String" itemvalue="blueking.component.ieod" />
+            <item index="1" class="java.lang.String" itemvalue="bkstorages" />
+            <item index="2" class="java.lang.String" itemvalue="MySQL-python" />
+            <item index="3" class="java.lang.String" itemvalue="PyMySQL" />
+            <item index="4" class="java.lang.String" itemvalue="MarkupSafe" />
+            <item index="5" class="java.lang.String" itemvalue="django" />
+            <item index="6" class="java.lang.String" itemvalue="Django" />
+            <item index="7" class="java.lang.String" itemvalue="functools32" />
+            <item index="8" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="9" class="java.lang.String" itemvalue="six" />
+            <item index="10" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="11" class="java.lang.String" itemvalue="uWSGI" />
+            <item index="12" class="java.lang.String" itemvalue="lazy_object_proxy" />
+            <item index="13" class="java.lang.String" itemvalue="line-profiler" />
+            <item index="14" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="15" class="java.lang.String" itemvalue="psutil" />
+            <item index="16" class="java.lang.String" itemvalue="memory_profiler" />
+            <item index="17" class="java.lang.String" itemvalue="matplotlib" />
+            <item index="18" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="19" class="java.lang.String" itemvalue="tencentcloud-sdk-python" />
+            <item index="20" class="java.lang.String" itemvalue="pip" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="pipeline_plugins.components.utils.cc_get_ips_info_by_str" />
+          <option value="pipeline_plugins.components.utils.get_job_instance_url" />
+          <option value="pipeline_plugins.components.utils.get_node_callback_url" />
+          <option value="cc.hosts_celery_task.delay" />
+          <option value="gcloud.conf.default_settings.ESB_GET_OLD_CLIENT_BY_USER" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
